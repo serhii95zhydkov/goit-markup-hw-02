@@ -22,17 +22,29 @@ body {
     color: var(--accent-color);
 }
 
-.main-btn:hover,
-.main-btn:focus,
+.hero-btn:hover,
+.hero-btn:focus,
 .filter-btn:hover,
 .filter-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
 }
 
-.main-btn,
+.hero-btn,
 .filter-btn {
     cursor: pointer;
+}
+
+.hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--accent-color);
 }
 
 .filter-btn {
@@ -87,17 +99,6 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.hero-btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1,88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
     color: #FFFFFF;
 }
 
